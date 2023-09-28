@@ -3,7 +3,7 @@ html{
     scroll-behavior: smooth;
 }
 .navTabs{
-    background-color: pink;
+    background-color:black;
     position: fixed;
     top: 0%;
     left:0%;
@@ -13,10 +13,10 @@ html{
 .links{
     display: inline-block;
     padding: 0.5em 2em;
-    color: black;
+    color: white;
 }
 .links:hover{
-    color:black;
+    color:white;
     background-color:pink;
     font-weight: bolder;
 }
@@ -45,6 +45,10 @@ img{
     font-family: Georgia;
 }
 /*--------CARDS-----------*/
+.title{border-bottom: ridge 1px cornflowerblue;
+    padding-top:3em ;
+
+}
 .container{
     display: flex;
     flex-wrap: wrap;
@@ -82,4 +86,8 @@ img{
     color: deeppink;
     text-decoration: none;
     font-weight: bolder;
+}
+/*--------FOOTER--------*/
+.copyrighted{
+    background-color: darksalmon;
 }
