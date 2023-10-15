@@ -56,7 +56,7 @@ img{
 }
 .title2{
     text-align: center;
-    border: dotted rgb(149, 231, 149);
+    border:dotted rgb(27, 157, 113);
     overflow: hidden;
     padding: 1.5em;
 }
@@ -86,7 +86,7 @@ img{
 }
 .title3{
     text-align: center;
-    border: dotted rgb(107, 189, 189);
+    border: dotted rgb(18, 120, 120);
     overflow: hidden;
     padding: 1.5em;
     text-decoration-line: underline;
@@ -103,7 +103,7 @@ img{
     position: absolute;
     left: 20%;
     right: 5%;
-    top:195%;
+    top:180%;
     font-size: 1.5em;
     font-style: italic;
     color:black;
@@ -132,17 +132,113 @@ img{
     width:100%;
     height: 100%;
     display: block;
-    position: center;
+    position:center;
 }
 .img4_title4{
-    text-align: center;
-    padding: 1em;
+    text-align:left;
+    padding-left: 1em;
+    padding-right: 1em;
     position:absolute;
-    left: 20%;
-    right: 5%;
-    top:95%;
-    font-size: 1.5em;
+    left: 12%;
+    right:3%;
+    top:250%;
+    font-size: 1em;
     font-style:oblique;
     color: black;
-
+    margin-left: 25em;
 }
+.title5{
+    text-align: center;
+    margin-top: 3em;
+    padding: 1em;
+    background-color: white;
+    text-decoration-line: underline;
+    border: dotted;
+}
+.card5{
+    width: 40%;
+    border-radius: 10px;
+    border: yellow 2px;
+    overflow: hidden;
+    position: center;
+}
+.img5{
+    width:100%;
+    height:100%;
+    display: block;
+    position:center;
+}
+.img5_title5{
+    text-align:left;
+    padding-left: 1em;
+    padding-right: 1em;
+    position:absolute;
+    left: 5%;
+    right:10%;
+    top:340%;
+    font-size: 1em;
+    font-style:oblique;
+    color: black;
+    margin-left: 25em;
+}
+.title6{
+    text-align: center;
+    margin-top: 3em;
+    padding: 1em;
+    background-color: white;
+    text-decoration-line: underline;
+    border: dotted;
+}
+.card6{
+    width: 40%;
+    border-radius: 10px;
+    border: yellow 2px;
+    overflow: hidden;
+    position: center;
+}
+.img6{
+    width:100%;
+    height:100%;
+    display: block;
+    position:center;
+}
+.img6_title6{
+    text-align:left;
+    padding-left: 1em;
+    padding-right: 1em;
+    position:absolute;
+    left: 15%;
+    right:12%;
+    top:432%;
+    font-size: 1em;
+    font-style:oblique;
+    color: black;
+    margin-left: 25em;
+}
+.title7{
+    text-align: center;
+    margin-top: 3em;
+    padding: 1em;
+    background-color: white;
+    text-decoration-line: underline;
+}
+.card7{
+    width: 20%;
+    border-radius: 10px;
+    border: yellow 2px;
+    overflow: hidden;
+    position: center;
+}
+.hyperlink1{
+        color: brown;
+        display:block;
+        padding: 1em 3em;
+        text-decoration: none;
+}
+
+
+
+
+
+
+
