@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  <title>Ashley Sukhdeo</title>
+</head>
+
+<body>
+  <h1 class="display-3 text-info bg-primary text-center">Ashley Sukhdeo</h1>
+  <p>Use of a mark in <b class="mark">Bootstrap</b></p>
+  <p>Use <kbd style="background-color: rgb(56, 95, 82);">Ctrl + p</kbd> to open the print dialog box.</p>
+  <p class="blobkquote-footer">From wikipedia.org website</p>
+  <figure>
+    <img src="City.jpg" alt="Image of a city and the view" width="28%" class="rounded m-3">
+    <img src="City.jpg" alt="Image of a city and the view" width="28%" class="rounded-circle m-3">
+    <img src="City.jpg" alt="Image of a city and the view" width="28%" class="img.thumbnail m-3">
+  </figure>
+  <h2 class="bg-warning text-primary text-center p-3">Basic List Groups</h2>
+  <h3>Food Shopping</h3>
+  <ul class="list-group m-5">
+    <li class="list-group-item">Apple</li>
+    <li class="list-group-item">Milk</li>
+    <li class="list-group-item active">Cereal</li>
+  </ul>
+
+  <h2 class="bg-warning text-primary text-center p-3">Dropdown</h2>
+  <div class="dropdown m-4">
+    <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown">CUNY Community College</button>
+    <ul class="dropdown-menu">
+      <li class="bg-dark">
+        <h5 class="dropdown-header">Borough of Queens</h5>
+      </li>
+      <li><a href="https://www.qcc.cuny.edu/" target="_blank" rel="noopener noreferrer" class="dropdown-item">QCC</a>
+      </li>
+
+      <li><a href="https://www.laguardia.edu/" target="_blank" rel="noopener noreferrer" class="dropdown-item">La
+          Guardia</a></li>
+
+      <li class="bg-dark">
+        <h5 class="dropdown-header">Borough of Manhattan</h5>
+      </li>
+      <li><a href="https://www.bmcc.cuny.edu/" target="_blank" rel="noopener noreferrer" class="dropdown-item">BMCC</a>
+      </li>
+    </ul>
+  </div>
+
+
+  <h2 class="bg-warning text-primary text-center p-3">Group dropdown menu</h2>
+  <div class="btn-group m-3">
+    <button type="button" class="btn-danger btn">Home</button>
+    <button type="button" class="btn-danger btn dropdown-toggle" data-bs-toggle="dropdown">Cuny Community College</button>
+    <button type="button" class="btn-danger-btn">Bootstrap Images</button>
+    <ul class="dropdown-menu">
+      <li class="bg-dark">
+        <h5 class="dropdown-header">Brough of Queens</h5>
+      </li>
+      <li><a href="https://www.qcc.cuny.edu/" target="_blank" rel="noopener noreferrer" class="dropdown-item">QCC</a>
+      </li>
+
+      <li><a href="https://www.laguardia.edu/" target="_blank" rel="noopener noreferrer" class="dropdown-item">La
+          Guardia</a></li>
+
+      <li class="bg-dark">
+        <h5 class="dropdown-header">Borough of Manhattan</h5>
+      </li>
+      <li><a href="https://www.bmcc.cuny.edu/" target="_blank" rel="noopener noreferrer" class="dropdown-item">BMCC</a>
+      </li>
+    </ul>
+  </div>
+
+<div>
+  <h2 class="bg-warning text-primary text-center p-3">Collapsible</h2>
+  </div>
+
+  <div>
+<button type="button" class="btn btn-info" data-bs-toggle="collapse" data-bs-target="#cat">Info about cats</button>
+<button type="button" class="btn btn-info" data-bs-toggle="collapse" data-bs-target="#dogs">Info about dogs</button>
+<button type="button" class="btn btn-info" data-bs-toggle="collapse" data-bs-target="#birds">Info about birds</button>
+<button type="button" class="btn btn-info" data-bs-toggle="collapse" data-bs-target="#rabbit">Info about rabbits</button>
+  </div>
+
+  <div id="cat" class="collapse">
+    <p class="p-3">The cat is similar in anatomy to the other felid species: it has a strong flexible body, quick reflexes, sharp teeth, and retractable claws adapted to killing small prey like mice and rats. Its night vision and sense of smell are well developed.</p>
+    <img src="Cat.jpg" alt="Image of a cat" width="50% class" class="mx-auto d-block rounded-circle">
+    <p class="blockquote-footer m-4">Photo by Dre</p>
+  </div>
+
+  <div id="dogs" class="collapse">
+    <p class="p-3">Dogs, like humans, are highly social animals and this similarity in their overall behavioural pattern accounts for their trainability, playfulnes and ability to fit into human households and social situations. This similarity has earned dogs a unique position in the realm of interspecies relationships.</p>
+    <img src="Dog.jpg" alt="Image of a dog" width="50% class" class="mx-auto d-block rounded-circle">
+    <p class="blockquote-footer m-4">Photo by good housekeeping</p>
+  </div>
+
+<div id="birds" class="collapse">
+  <p class="p-3">Birds are vertebrate animals adapted for flight.Many can also run, jump, swim, and dive. Some, like penguins, have lost the ability to fly but retained their wings. Birds are found worldwide and in all habitats. The largest is the nine-foot-tall ostrich. The smallest is the two-inch-long bee hummingbird.</p>
+  <img src="macaw-bird.jpg" alt="Image of two macaw" width="50% class" class="mx-auto d-block rounded-circle">
+  <p class="blockquote-footer m-4">Photo by the week</p>
+</div>
+
+<div id="rabbits" class="collapse">
+  <p class="p-3">Rabbits are social creatures and are happiest in the company of their own species.Pet rabbits can live between eight to 12 years.Most rabbits can actually turn their ears 180 degrees</p>
+  <img src="rabbits.jpg" alt="Image of rabbits" width="50% class" class="mx-auto d-block rounded-circle">
+  <p class="blockquote-footer m-4">Photo by the guradian</p>
+</div>
+
+ <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
