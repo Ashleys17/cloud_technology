@@ -3,44 +3,107 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <h1 class="text">Portfolio</h1>
+    <!doctype html>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">  
 </head>
-<body>
-    <div class="scroll-up-btn">
-        <i class="fas fa-angle-up"></i>
-    </div>
-    <nav class="nav-bar">
-     <ul class="menu">
-        <li>Portfolio</li>
-        <li><a href="#Introduction" class="menu-btn">Introduction</a></li>
-        <li><a href="#Projects" class="menu-btn">Projects</a></li>
-        <li><a href="#Activites" class="menu-btn">Activites</a></li>
-        <li><a href="#Contactinfo" class="menu-btn">Contact info</a></li>
-     </ul>
-    </nav>
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-info">
+        <div class="container">
+            <a class="navbar-brand">My Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false">
+                <span class="navbar-toggle-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav m-auto my-2 mg-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Introduction</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Activites</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Contact info</a>
+                    </li>
+
+            </ul>
+            </div>
+            </div>
+             </nav>
 
     <!---My introduction-->
-    <section class="about" id="about">
-        <div class="max-width">
-            <h2 class="title">About me</h2>
-            <div class="about-content">
-                <div class="column left">
-                    <img src="images/flower.jpg" alt="">
-                </div>
-                <div class="column right">
-                    <div class="text">
-                        <p>Hi i'm Ashley, I have been in this class for about 5 months now and so far I have gained alot of knowledge and gained a lot of
+             <h1 class="mt-5 p-3 text-center">About me</h1>
+             <div class="container-fluid">
+                <div class="row justify-content-center">
+                    <div class="col-5 m-3"><img src="images/flower.jpg" width="60%"></div>
+                    <div class="col-6 m-3">
+                        <p style="font-size: 1.5em;">
+                            Hi i'm Ashley, I have been in this class for about 5 months now and so far I have gained alot of knowledge and gained a lot of
                             skills. This class has always been motivating me and encouraging me to do the best I can. I would always love to share my experience with others.
-                            With the knowledge and skills that I have gained from this class I would use my experience to embrace the power of technology to improve the lives of others. </p>
+                            With the knowledge and skills that I have gained from this class I would use my experience to embrace the power of technology to improve the lives of others. 
+                        </p> 
                     </div>
+                     </div>
+                     </div>
 
+                     <!---CLASS ACTIVITY-->
+                     <h2 class="bg-info p-3 text-center text-light">Class Activity</h2>
+    <div class="container">
+        <div class="row justify-content-center">
+            <section class="card col-lg-2 col-md-5 col-sm-10 m-4">
+                <img src="" class="card-img-top" width="100%">
+                <div class="card-body">
+                    <h2 class="card-subtitle">Modal</h2>
+                    <button type="button" class="btn btn-dark m-3" data-bs-target="#modal2" data-bs-toggle="modal">Click to view</button>
                 </div>
-            </div>
-        </div>
-    </section>
-    
-    
-</body>
+            </section>
+
+
+            <div class="container">
+                <div class="row justify-content-center">
+                    <section class="card col-lg-2 col-md-5 col-sm-10 m-4">
+                        <img src="" class="card-img-top" width="100%">
+                        <div class="card-body">
+                            <h2 class="card-subtitle">Animation</h2>
+                            <button type="button" class="btn btn-dark m-3" data-bs-target="#modal2" data-bs-toggle="modal">Click to view</button>
+                        </div>
+                    </section>
+
+
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <section class="card col-lg-2 col-md-5 col-sm-10 m-4">
+                                <img src="" class="card-img-top" width="100%">
+                                <div class="card-body">
+                                    <h2 class="card-subtitle">Intro to bootstrap</h2>
+                                    <button type="button" class="btn btn-dark m-3" data-bs-target="#modal2" data-bs-toggle="modal">Click to view</button>
+                                </div>
+                            </section>
+
+                <!----Projects-->
+                <h2 class="bg-info p-3 text-center text-light">Projects</h2>
+    <div class="container">
+        <div class="row justify-content-center">
+            <section class="card col-lg-2 col-md-5 col-sm-10 m-4">
+                <img src="" class="card-img-top" width="100%">
+                <div class="card-body">
+                    <h2 class="card-subtitle">Project 1</h2>
+                    <button type="button" class="btn btn-dark m-3" data-bs-target="#modal2" data-bs-toggle="modal">Click to view</button>
+                </div>
+            </section>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
 </html>
+ 
